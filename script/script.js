@@ -33,7 +33,7 @@ function validar(event){
         email.style.borderColor="red";
         document.getElementById("errorEmail").style.visibility="visible";
       }
-    if (email_verification!= email) {
+    if (email_verification.value!= email.value) {
         correcto=false;
         email_verification.style.borderColor="red";
         document.getElementById("errorSegundoEmail").style.visibility="visible";
